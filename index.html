@@ -1,17 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>Lista de Cocteles</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍸</text></svg>">
+    <title>Cocktail Explorer</title>
 </head>
 <body>
     <div id="cocktail-list">
-        <h1>Lista de Cocteles</h1>
+        <h1><i class="fas fa-cocktail"></i> Cocktail Explorer</h1>
         <div class="list-container">
             <ul class="abc-list">
-                <li><p class="abcbtn">A</p></li>
+                <li><p class="abcbtn abcbtnactive">A</p></li>
                 <li><p class="abcbtn">B</p></li>
                 <li><p class="abcbtn">C</p></li>
                 <li><p class="abcbtn">D</p></li>
@@ -43,6 +45,7 @@
         <div class="cocktails-container" id="cocktails">
         </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="js/script.js"></script>
 </body>
 </html>
